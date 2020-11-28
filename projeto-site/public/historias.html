@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Individual</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="funcoes.js"></script>
+</head>
+<script>
+
+    let usuario;
+
+    verificar_autenticacao();
+
+    
+</script>
+<body onload="verificar_autenticacao()">
+    <!--header inicio-->
+    <div class="header">
+        <div class="container">
+            <div class="nav">
+                <ul>
+                    <li>Olá, <b id="b_usuario"></b></li>
+                    <li><a href="" onclick="logoff()">LOGOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--header ou cabeçalho-->
+    <div class="header">
+        <div class="nav">
+            <div class="imagem_logo">
+                <a href="index.html"> <img id="logo" src="img/LOGO_GABRIEL_1.png"></a>
+            </div>
+            <div id="container">
+                <ul>
+                    <li><a href="index.html" class="inicio">INICIO</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li class="menu_atual"><a href="historias.html">HISTORIAS</a></li>
+                    <li><a href="curiosidades.html">CURIOSIDADES</a></li>
+                    <li><a href="meu_cadastro.html">CADASTRO</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="imagem_logo">
+        <a href="index.html"> <img src="img/LOGO_GABRIEL_1.png"></a>
+    </div> -->
+
+   <!--header fim-->
+
+    <!-- PRIMEIRA TELA(historia) -->
+
+    <div class="showcase_historia">
+        <div class="container">
+            <h1>Historia Lamborghini</h1>
+            <p><br>
+                A história da Lamborghini começa com o amargo sabor da vingança.
+                Ferruccio Lamborghini, então dono de uma empresa de tratores agrícolas, era um apaixonado por carros
+                velozes e por isso detentor de um Ferrari 250 GT.
+                Este não gostou da resposta torta de Enzo Ferrari quando se dirigiu ao mesmo para reportar um
+                persistente defeito ao nível da embraiagem do seu carro: “Você não percebe nada de carros.
+                Vá conduzir tratores!” à qual o mesmo respondeu com a promessa da criação de uma marca melhor.
+            </p><br>
+            <div id="fabrica_lambo">
+                <img id="lambo" src="./img/fabrica_lambo.jpg" alt="">
+            </div>
+            <div id="carro_lambo">
+                <img src="./img/lambo_350gt.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+<!-- SEGUNDA TELA(historia) -->
+
+    <div class="showcase_historia2">
+        <div class="container">
+            <h1>Historia Ferrari</h1>
+            <p><br>
+                Tudo começou em 1929, quando a marca foi fundada na cidade de Maranello, na Itália, por Enzo Ferrari.
+                Inicialmente conhecida como Scuderia Ferrari, a fabricante patrocinava pilotos e carros de corrida já
+                fabricados.
+                A produção independente começou somente em 1946, com o “nascimento” da Ferrari 125S, com motor V12.
+            </p><br>
+            <div id="fabrica_ferrari">
+                <img src="./img/fabrica_ferrari.jpg" alt="">
+            </div>
+            <div id="carro_ferrari">
+                <img src="./img/ferrari125s.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!-- TERCEIRA TELA(historia) -->
+
+    <div class="showcase_historia3">
+        <div class="container">
+            <h1>Historia Mercedes-Benz</h1>
+            <p><br>
+                A Mercedes-Benz é uma marca alemã de automóveis pertencente ao grupo Daimler AG, 
+                criada em 1924 e resultado de uma fusão entre a Benz & Cie. 
+                e a Daimler-Motoren-Gesellschaft. É a mais antiga empresa de automóveis e veículos comerciais da Alemanha e do mundo. 
+                Esta produz automóveis, caminhões, autocarros, e os seus próprios motores.
+                A Mercedes-Benz tem suas origens na Mercedes 35 hp de 1901 da Daimler-Motoren-Gesellschaft e na Benz Patent-Motorwagen de 1886 da Rheinische Gasmotorenfabrik, Benz & Cie, 
+                que é amplamente considerado como o primeiro automóvel movido a gasolina. Criada em 1883, a Benz & Cie. 
+                foi a maior empresa criada pelo alemão Karl Benz. A Daimler foi fundada por Gottlieb Daimler e pelo seu parceiro Wilhelm Maybach em 1890. 
+                Daimler viria a morrer em 1900 e Maybach deixou a empresa em 1907. Nessa altura, a Daimler e a Benz eram as grande rivais de uma da outra. 
+                Contudo em 1924, as duas empresas assinaram um acordo de ajuda mútuo devido à necessidade de estimular a economia germânica após a Primeira Guerra Mundial. 
+                Este acordo viria a ser quebrado em 2000. Mesmo assim, as duas empresas criaram os seus próprios automóveis e as suas próprias marcas. 
+                Em 1926, quando então se formou a empresa Daimler-Benz, um novo símbolo fora então criado para cada parte (Daimler e Benz).
+
+            </p><br>
+            <div id="fabrica_mercedes-benz">
+                <img id="mercedes" src="./img/fabrica_mercedes-benz.jpg" alt="">
+            </div>
+            <div id="carro_mercedes-benz">
+                <img src="./img/carro_mercedes_mod.jpg" alt="">
+            </div>
+        </div>
+    </div>
+  
+    
+<!--footer inicio-->
+<div class="footer">
+    <div class="container">
+        <h4>Feito com carinho por um aluno BandTec. Copyright © 2020</h4>
+    </div>
+</div>
+<!--footer fim-->
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Individual</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="funcoes.js"></script>
+</head>
+<script>
+
+    let usuario;
+
+    verificar_autenticacao();
+
+    
+</script>
+<body onload="verificar_autenticacao()">
+    <!--header inicio-->
+    <div class="header">
+        <div class="container">
+            <div class="nav">
+                <ul>
+                    <li>Olá, <b id="b_usuario"></b></li>
+                    <li><a href="" onclick="logoff()">LOGOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--header ou cabeçalho-->
+    <div class="header">
+        <div class="nav">
+            <div class="imagem_logo">
+                <a href="index.html"> <img id="logo" src="img/LOGO_GABRIEL_1.png"></a>
+            </div>
+            <div id="container">
+                <ul>
+                    <li><a href="index.html" class="inicio">INICIO</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="historias.html">HISTORIAS</a></li>
+                    <li class="menu_atual"><a href="curiosidades.html">CURIOSIDADES</a></li>
+                    <li><a href="meu_cadastro.html">CADASTRO</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="imagem_logo">
+        <a href="index.html"> <img src="img/LOGO_GABRIEL_1.png"></a>
+    </div> -->
+
+    <!--header fim-->
+
+    <br> <br>
+    <div class="showcase_curiosidades">
+        <div class="container">
+            <h1>Curiosidades Lamborghini</h1>
+            <p>
+                <br> - O primeiro Lamborghini lançado não tinha motor:
+                Quando a Lamborghini lançou seu primeiro modelo, o 350 GTV, no Salão de Turim em 1963, o motor não
+                estava pronto.
+                A solução encontrada foi encher o espaço do motor com tijolos e manter o capo fechado durante toda a
+                exibição.
+                <br> - O seu logotipo possui raízes astrológicas, O emblema da marca italiana de carros esportivos é uma
+                homenagem do fundador da marca,
+                Ferruccio Lamborghini, às famigeradas touradas, das quais era fã. Até hoje os carros da marca recebem
+                nomes de touros famosos.
+                <br> - Ferruccio foi fundador e a grande mente que deu vida à empresa.
+                Durante a segunda grande guerra, ele era o responsável pela manutenção dos veículos da Força Aérea Real
+                Italiana.
+                <br> - A marca do touro não consegue excelente desempenho apenas para os carros, mas também para os
+                barcos.
+                <br> A “Motori Marini Lamborghini” desenvolve alguns dos motores de barco mais rápidos que já foram
+                produzidos e coleciona prêmios.
+            </p>
+            <div id="barco_lambo">
+                <img id="lambo" src="img/lamborghini-aventador_barco_mod.jpg">
+            </div>
+            <div id="evolução_lambo">
+                <img src="img/evolução_lamborghini.jpg">
+
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- SEGUNDA TELA(sobre) -->
+
+    <div class="showcase_curiosidades2">
+        <div class="container">
+            <h1>Curiosidades Ferrari</h1>
+            <p>
+                Logo da Ferrari
+                <br> - O cavalo negro empinado é uma das imagens de marca do logtipo da Ferrari e foi introduzido na “24
+                Horas de Spa” em 1932.
+                O cavalo era originalmente o símbolo do Conde Francesco Baracca, herói da força aérea italiana durante a
+                I Guerra Mundial.
+                Ao cavalo negro junta-se o fundo amarelo, a cor símbolo da terra natal de Enzo Ferrari, Modena.
+                <br> - O nome oficial do circuito de Ímola, na Itália, é Enzo e Dino Ferrari.
+                <br> - A paixão de Enzo Ferrari (1898-1988) pelo automobilismo começou quando ele tinha 10 anos,
+                ao visitar o autódromo de Bolonha, Itália. Aos 13, já sabia dirigir.
+                Enzo entrou para o ramo como mecânico na Contruzioni Mecaniche Nationali, onde trabalhou até a Primeira
+                Guerra Mundial.
+                Aos 20 anos se transferiu para a Alfa Romeo, já como piloto de provas.
+                Partia então para cumprir seu destino de maior construtor mundial de carros de corrida.
+                <br> - O primeiro carro da Ferrari, batizado de Tipo 125, foi lançado em 1947. Seu motor V12 é uma
+                criação de Giaochino Columbo.
+                <br> - No ano de 1969, 50% das ações da Ferrari foram vendidas para a Fiat.
+                <br> - Enzo Ferrari teve um único filho – Alfredino (ou “Dino”) -, nascido em 1932.
+                O rapaz, que sofria de distrofia muscular, morreu aos 24 anos.
+                <br> - A década de 70 foi interessante para a Ferrari, com um crescimento forte após a FIAT, 
+                a maior montadora da Itália, comprar 50% da empresa em 1969.
+            </p>
+            
+           
+            <!-- <div id="carro_ferrari">
+                <img src="./img/ferrari125s.jpg" alt="">
+            </div>  -->
+        </div>
+    </div>
+
+    <img class="evolucao_ferrari" src="img/evolução_ferrari.jpg" alt="">
+
+
+    <!-- TERCEIRA TELA(sobre) -->
+
+    <div class="showcase_curiosidades3">
+        <div class="container">
+            <h1>Curiosidades Mercedes-Benz</h1>
+            <p>
+                <br> - Ela é a mais antiga empresa de automóveis e veículos comerciais da Alemanha e do mundo.
+                <br> - O símbolo da empresa é formado por uma estrela de três pontas, cada ponta representa o mar, a
+                terra e o ar.
+                Para mostrar que os motores desenhados pela fabricante se adaptavam a esses três meios.
+                <br> - Além de carros, a empresa fabrica motores para aviões, caminhões, autocarros
+                e hoje também fabrica protótipos de motores para equipes de Fórmula 1.
+                <br> - A fabricante tem certificados internacionais pela sustentabilidade dos motores e veículos que
+                desenvolve.
+
+
+            </p>
+            <div id="evolução_mercedes">
+                <img src="img/evolução_mercedes.jpg">
+            </div>
+            <!-- <div id="carro_mercedes-benz">
+                <img src="./img/carro_mercedes_mod.jpg" alt="">
+            </div>  -->
+        </div>
+    </div>
+
+<!--footer inicio-->
+<div class="footer">
+    <div class="container">
+        <h4>Feito com carinho por um aluno BandTec. Copyright © 2020</h4>
+    </div>
+</div>
+<!--footer fim-->
+
+
+</body>
+
+</html>

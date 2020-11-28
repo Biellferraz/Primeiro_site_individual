@@ -1,0 +1,561 @@
+/* Global */
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header {
+    background-color:#111111;
+    width: 100%;
+    height: 140px;
+}
+
+.imagem_logo{
+    width: 200px;
+    height: 100px; 
+    float: left;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+   
+}
+
+#logo {
+    width: 110%;
+    height: 140%;
+}
+
+/*Fim Global*/
+
+/*Navegação do menu do site */
+
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    
+}
+
+.nav ul {
+    margin: 0;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 140%;
+    text-transform: uppercase;
+    
+   
+}
+
+.nav a:hover {
+    font-weight: bold;
+} 
+
+.nav li{
+    display: inline-block;
+    padding: 20px;
+    padding: 30px 30px 0 30px;
+  }
+
+.header .nav .menu_atual a {
+    color: white;
+}
+
+.botao_login {
+    color: orangered;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+
+/*fim da navegação*/
+
+/* PRIMEIRA TELA DO INDEX(INICIAL) */
+
+.showcase_1 {
+    margin-top: 100px;
+}
+
+.showcase_1 #aventador{
+    
+    float: left; 
+    opacity: 15%;
+        
+}
+
+#aventador:hover {
+    transform: scale(1.3);
+    opacity: 100%;
+}
+
+.showcase_1 #ferrari {
+
+    margin-left: 570px; 
+    margin-bottom: -377px;
+    
+}
+
+.img2 {
+margin-left: -40px;
+opacity: 15%;
+}
+
+.img2:hover {
+transform: scale(1.3);
+opacity: 100%;
+
+}
+
+.showcase_1 #amg  {
+    margin-left: 1151px;     
+}
+
+.img3 {
+    margin-left: -93px;
+    margin-top: 44px;
+    opacity: 15%;
+}
+
+.img3:hover {
+transform: scale(1.3);
+opacity: 100%;
+}
+
+/*primeira pagina (sobre)*/
+
+.showcase_sobre .container h1 {
+    text-align: center;
+    color: orangered;
+    margin-top: 10%;
+    margin-left: 60px;
+    font-size: 58px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.showcase_sobre .container p {
+    text-align: center;
+    margin-left: 30px;
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.showcase_sobre .container img {
+    width: 35%;
+    height: 25%;
+    margin-left: 90px;
+}
+
+/* MISSÃO-VISÃO-VALORES */
+
+.box {
+    overflow: auto;
+    margin-top: 200px;
+    background-color: black;
+}
+
+.box .box-item {
+    color: white;
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.box .box-item img {
+    height: 100px;
+    margin-top: 250px;
+}
+
+
+/*primeira pagina (historia)*/
+
+ .showcase_historia .container h1 {
+    color: orangered;
+    margin-top: 150px;
+    margin-left: 70px;
+    font-size: 58px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+.showcase_historia .container p {
+    margin-left: 70px;
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.showcase_historia .container #fabrica_lambo img {
+    width: 450px;
+    height: 280px;
+    margin-left: 60%;
+    
+}
+.showcase_historia .container #carro_lambo img {
+    width: 450px;
+    height: 290px;
+    margin-left: 5%;
+    margin-top: -100%;  
+}
+
+
+/*Segunda pagina (historia)*/
+
+.showcase_hiatoria2 .container  {
+    width: 1200px;
+    height: 250px;
+    margin-top: 45%;
+    
+}
+
+.showcase_historia2 .container h1{
+    color: orangered;
+    margin-top: 200px;
+    margin-left: 70px;
+    font-size: 58px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.showcase_historia2 .container p {
+    margin-left: 70px;
+    margin-top: 15px;
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.showcase_historia2 .container #fabrica_ferrari img {
+    width: 450px;
+    height: 280px;
+    margin-left: 60%;
+    
+    
+}
+
+.showcase_historia2 .container #carro_ferrari img {
+    width: 450px;
+    height: 290px;
+    margin-left: 5%;
+    margin-top: -18%;
+    
+}
+
+/*Terceira pagina (historia)*/
+
+.showcase_historia3 .container  {
+    width: 1200px;
+    height: 250px;
+    margin-top: 25%;
+    
+}
+
+.showcase_historia3 .container h1{
+    color: orangered;
+    margin-left: 70px;
+    font-size: 58px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.showcase_historia3 .container p {
+    margin-left: 70px;
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.showcase_historia3 .container #fabrica_mercedes-benz img {
+    width: 450px;
+    height: 290px;
+    margin-left: 60%;
+    
+    
+}
+
+.showcase_historia3 .container #carro_mercedes-benz img {
+    width: 450px;
+    height: 290px;
+    margin-left: 7%;
+    margin-top: -25%;
+    
+}
+
+/*showcase curiosidades1 */
+
+.showcase_curiosidades .container h1 {
+    width: 100%;
+    height: 100%;
+    color: orangered;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 58px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+.showcase_curiosidades .container p {
+    margin-left: 25px;
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.showcase_curiosidades .container #barco_lambo img {
+    width: 450px;
+    height: 280px;
+    margin-left: 60%;
+    
+}
+.showcase_curiosidades .container #evolução_lambo img {
+    width: 474px;
+    height: 315px;
+    margin-left: 5%;
+    margin-top: -285px;
+    
+}
+
+/*showcase curiosidades2 */
+
+.showcase_curiosidades2 .container  {
+    width: 1200px;
+    height: 250px;
+    
+}
+
+.showcase_curiosidades2 .container h1{
+    color: orangered;
+    margin-left: 20px;
+    font-size: 58px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.showcase_curiosidades2 .container p {
+    margin-left: 55px;
+    margin-top: 90px;
+    height: 2px;
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.showcase_curiosidades2 .container .evolucao_ferrari {
+    width: 450px;
+    height: 290px;
+    margin-left: 75%;
+    margin-top: 525px;
+    
+}
+
+.evolucao_ferrari {
+    width: 450px;
+    height: 300px;
+    margin-top: 500px;
+    margin-left: 100px;
+
+
+}
+/*showcase curiosidades3 */
+
+.showcase_curiosidades3 .container  {
+    width: 1200px;
+    height: 250px;
+    
+    
+}
+
+.showcase_curiosidades3 .container h1{
+    color: orangered;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 58px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.showcase_curiosidades3 .container p {
+    margin-left: 55px;
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.showcase_curiosidades3 .container #evolução_mercedes img {
+    width: 450px;
+    height: 280px;
+    margin-left: 10%;
+    
+}
+
+/* pagina CADASTRAR */
+
+.showcase_cadastro h3 {
+    color: white;
+}
+
+#btn_cadastrar {
+    background-color: orangered;
+    float: right;
+    border: none;
+    width: 160px;
+    height: 70px;
+    font-size: 18px;
+}
+
+.efeito_btn {
+    background-color: orangered;
+    cursor: pointer;
+    transition: color 1s cubic-bezier(0.06, 0.81, 0, 0.98), border-color 0.5s cubic-bezier(0.06, 0.81, 0, 0.98);
+    display: inline-block;
+}
+
+
+#lado_esquerdo_cadastro #btn_cadastrar:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.showcase_cadastro .container #lado_esquerdo_cadastro {
+    width: 566px;
+    height: 613px;;
+    background-color: #1f1f1f;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-top: 82px;
+    
+} 
+
+.showcase_cadastro .container #lado_direito_login {
+    width: 640px;
+    height: 633px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: url(../img/trio_cadastro.jpg);
+    margin-left: 42%;
+    margin-top: -40%
+}
+
+
+/* TELA DE LOGIN */
+
+.showcase_login {
+    width: 100%;
+    height: 527px;
+}
+
+.showcase_login .container {
+    width: 1100px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 120px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.showcase_login .container #lado_esquerdo_login {
+    width: 566px;
+    height: 613px;;
+    background-color: #1f1f1f;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.showcase_login h3 {
+    color: white;
+}
+
+
+#lado_esquerdo_login #lembrar_senha {
+    margin-right: 80px;
+}
+
+#lado_esquerdo_login #btn_entrar_login {
+    border: none;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: orangered;
+    float: left;
+    margin-left: 125px;
+}
+
+#lado_esquerdo_login #btn_criar_login {
+    border: none;
+    width: 120px;
+    height: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: orangered;
+    margin-left: -50px;
+}
+
+#lado_esquerdo_login #btn_criar_login:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#lado_esquerdo_login #btn_entrar_login:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.showcase_login .container #lado_direito_login {
+    width: 695px;
+    height: 633px;
+    background-image: url(../img/trio_cadastro.jpg);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float: right;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    background-color: orangered;
+    text-align: center;
+    margin-top: 900px;
+    height: 100px;
+}
+
+.footer h4 {
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 40px;
+}
+
+#b_usuario {
+    color: white
+}
+
