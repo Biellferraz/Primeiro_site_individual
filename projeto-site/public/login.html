@@ -41,8 +41,8 @@
 
 
                 <form id="form_login" method="post" onsubmit="return entrar()">
-                    Usuário:
-                    <input type="text" class="input-padrao" name="login">
+                    Email:
+                    <input type="email" class="input-padrao" name="login">
                     <br>
                     Senha:
                     <input type="password" class="input-padrao" name="senha">
@@ -54,7 +54,7 @@
                     <div id="div_erro" class="msg_erro">
                     </div>
 
-                     <img src="img/carregando.gif" id="img_aguarde" style="display: none;" width="50px" > 
+                     <img src="img/carregando.gif" id="img_aguarde" style="display: none;" width="10px" > 
                     
                 </div>
             </div>
@@ -73,6 +73,16 @@
 
 </html>
 <script>
+
+function validar() {
+
+    if (login.value == "" || login.value == Number) {
+    alert("Campo login invalido")
+    }else if (senha.value == "") {
+    alert("Campo senha invalido")
+    }
+  }
+
 
     function entrar() {
         aguardar();

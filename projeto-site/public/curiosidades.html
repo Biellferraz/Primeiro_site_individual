@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Individual</title>
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="funcoes.js"></script>
+    <script src="funcoes.js"></script>
 </head>
 <script>
 
@@ -14,8 +14,9 @@
 
     verificar_autenticacao();
 
-    
+
 </script>
+
 <body onload="verificar_autenticacao()">
     <!--header inicio-->
     <div class="header">
@@ -41,17 +42,12 @@
                     <li><a href="sobre.html">SOBRE</a></li>
                     <li><a href="historias.html">HISTORIAS</a></li>
                     <li class="menu_atual"><a href="curiosidades.html">CURIOSIDADES</a></li>
-                    <li><a href="meu_cadastro.html">CADASTRO</a></li>
-                    <li><a href="login.html">LOGIN</a></li>
+
                 </ul>
             </div>
         </div>
     </div>
 
-
-    <!-- <div class="imagem_logo">
-        <a href="index.html"> <img src="img/LOGO_GABRIEL_1.png"></a>
-    </div> -->
 
     <!--header fim-->
 
@@ -76,13 +72,18 @@
                 barcos.
                 <br> A “Motori Marini Lamborghini” desenvolve alguns dos motores de barco mais rápidos que já foram
                 produzidos e coleciona prêmios.
+                <br> Desenvolvido pela Lamborghini em parceira com o MIT-Instituto de Tecnologia de Massachusetts, O Terzo Millennio usa Supercapacitores em vez de baterias, devido ao seu armazenamento mais rápido, 
+                e ocupando menor espaço graças a utilizacão de nanotubos em fibra de carbono. Esses supercapacitores foram desenvolvidos para capturar e liberar simultaneamente energia e dar alto desempenho ao carro. 
+                São colocados nos aros e podem definir quanto torque é enviado a cada roda, tornando a estabilidade do carro tão boa quanto em modermo carro de fórmula 1.  
             </p>
+            <div id="evolução_lambo">
+                <img src="img/evolução_lamborghini.jpg">
+            </div>
             <div id="barco_lambo">
                 <img id="lambo" src="img/lamborghini-aventador_barco_mod.jpg">
             </div>
-            <div id="evolução_lambo">
-                <img src="img/evolução_lamborghini.jpg">
-
+            <div id="carro_futuro">
+                <img src="img/lamborghini-terzo_mod.jpg">
             </div>
         </div>
     </div>
@@ -113,18 +114,25 @@
                 <br> - No ano de 1969, 50% das ações da Ferrari foram vendidas para a Fiat.
                 <br> - Enzo Ferrari teve um único filho – Alfredino (ou “Dino”) -, nascido em 1932.
                 O rapaz, que sofria de distrofia muscular, morreu aos 24 anos.
-                <br> - A década de 70 foi interessante para a Ferrari, com um crescimento forte após a FIAT, 
+                <br> - A década de 70 foi interessante para a Ferrari, com um crescimento forte após a FIAT,
                 a maior montadora da Itália, comprar 50% da empresa em 1969.
+                <br> - A sustentabilidade prometida vem na forma dos materiais utilizados na produção do carro. Os assentos são de uma fibra de uma palmeira da Indonésia. 
+                O nome comercial do material é Karuun. O revestimento dos bancos é feito de garrafas plásticas recicladas. 
+                Um material batizado de Dinamica, e que já está em uso nos carros da divisão esportiva AMG. 
+                Ele substitui o couro e a alcantara. O formato dos bancos dianteiros remete às redes em que os Na’vi dormem no alto das árvores no filme.
             </p>
-            
-           
-            <!-- <div id="carro_ferrari">
-                <img src="./img/ferrari125s.jpg" alt="">
-            </div>  -->
+
+            <img class="evolucao_ferrari" src="img/evolução_ferrari.jpg">
+
+            <div class="carro_ferrari">
+                <img src="img/formula_1.jpg" alt="">
+            </div>
         </div>
     </div>
 
-    <img class="evolucao_ferrari" src="img/evolução_ferrari.jpg" alt="">
+
+
+
 
 
     <!-- TERCEIRA TELA(sobre) -->
@@ -144,22 +152,22 @@
 
 
             </p>
-            <div id="evolução_mercedes">
+            <div class="evolução_mercedes">
                 <img src="img/evolução_mercedes.jpg">
             </div>
-            <!-- <div id="carro_mercedes-benz">
-                <img src="./img/carro_mercedes_mod.jpg" alt="">
-            </div>  -->
+            <div class="carro_futuro">
+                <img src="img/vision-avtr_MOD.jpg">
+            </div>
         </div>
     </div>
 
-<!--footer inicio-->
-<div class="footer">
-    <div class="container">
-        <h4>Feito com carinho por um aluno BandTec. Copyright © 2020</h4>
+    <!--footer inicio-->
+    <div class="footer">
+        <div class="container">
+            <h4>Feito com carinho por um aluno BandTec. Copyright © 2020</h4>
+        </div>
     </div>
-</div>
-<!--footer fim-->
+    <!--footer fim-->
 
 
 </body>
